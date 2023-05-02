@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.escort-navbar {
+    background: #031521;
+}
+
+/* .escort-navbar .navbar-brand {
+    margin: 5px 0px;
+} */
+
+.escort-navbar .navbar-collapse {
+    justify-content: end !important;
+}
+
+.escort-navbar .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link {
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .indox-bagde {
+    padding: 0px;
+    background: transparent;
+    border: none;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .indox-bagde:focus {
+    box-shadow: none;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .nav-profile button {
+    background: transparent;
+    border: none;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .nav-profile button:first-child {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E41779;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .nav-profile button img {
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.escort-navbar .navbar-nav .nav-item .nav-link .nav-profile button:focus {
+    box-shadow: none;
+}
+
+
+
+@media (max-width: 1199px) {
+    .escort-navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .escort-navbar .navbar-nav .nav-item .nav-link .nav-profile button:first-child {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .escort-navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .escort-navbar .navbar-nav .nav-item:last-child {
+        padding: 0px 0px 10px 0px;
+    }
+}

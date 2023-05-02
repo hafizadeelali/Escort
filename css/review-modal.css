@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/lucas-kapla-R79qkPYvrcM-unsplash.jpg);
+}
+
+#review-modal {
+    max-width: 1000px;
+}
+
+#review-modal .modal-content {
+    background: #E41779;
+}
+
+#review-modal .modal-header {
+    border: none;
+    padding: 20px 30px;
+    position: relative;
+}
+
+#review-modal .modal-header h6 {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#review-modal .modal-header .btn-close {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    background: transparent url(../img/Vector.png) center/1em auto no-repeat;
+    margin-top: -40px;
+}
+
+#review-modal .modal-header .btn-close:focus {
+    box-shadow: none;
+}
+
+#review-modal .modal-body {
+    padding: 0px;
+}
+
+#review-modal .modal-body p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+/* BEGIN: RATING AREA */
+.review-rating {
+    display: flex;
+    justify-content: center;
+}
+
+.review-rating-stars .rate-area {
+    float: left;
+    border-style: none;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.review-rating-stars .rate-area:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.review-rating-stars .rate-area:not(:checked)>label {
+    float: right;
+    width: 0.8em !important;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 180%;
+    color: white !important;
+    font-size: 37px !important;
+    margin-left: 10px;
+}
+
+.review-rating-stars .rate-area:not(:checked)>label:before {
+    content: "★";
+}
+
+.review-rating-stars .rate-area>input:checked~label {
+    color: #FFCC17 !important;
+}
+
+.review-rating-stars .rate-area:not(:checked)>label:hover,
+.review-rating-stars .rate-area:not(:checked)>label:hover~label {
+    color: #FFCC17 !important;
+}
+
+.review-rating-stars .rate-area>input:checked+label:hover,
+.review-rating-stars .rate-area>input:checked+label:hover~label,
+.review-rating-stars .rate-area>input:checked~label:hover,
+.review-rating-stars .rate-area>input:checked~label:hover~label,
+.review-rating-stars .rate-area>label:hover~input:checked~label {
+    color: #FFCC17 !important;
+}
+
+/* END: RETING AREA */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #review-modal {
+        max-width: 750px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #review-modal {
+        max-width: 650px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #review-modal .modal-header .btn-close {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #review-modal .modal-header {
+        padding: 10px 20px;
+    }
+
+    #review-modal .modal-header h6 {
+        position: absolute;
+        top: 85px;
+        left: 20px;
+        font-size: 16px;
+    }
+
+    #review-modal .modal-body p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 30px !important;
+        padding: 20px;
+    }
+
+    .review-rating-stars .rate-area {
+        margin-bottom: 20px;
+    }
+
+    .review-rating-stars .rate-area:not(:checked)>label {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #review-modal .modal-header .btn-close {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #review-modal .modal-header {
+        padding: 10px 20px;
+    }
+
+    #review-modal .modal-header h6 {
+        position: absolute;
+        top: 85px;
+        left: 20px;
+        font-size: 16px;
+    }
+
+    #review-modal .modal-body p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 25px !important;
+        padding: 20px;
+    }
+
+    .review-rating-stars .rate-area {
+        margin-bottom: 20px;
+    }
+
+    .review-rating-stars .rate-area:not(:checked)>label {
+        font-size: 30px !important;
+    }
+}

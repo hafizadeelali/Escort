@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --firstfontfamily: Montserrat;
+    --secondfontfamily: Inter;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: #031521;
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+.container h5 {
+    padding-top: 90px;
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+    /* identical to box height, or 77% */
+    color: #FFFFFF;
+}
+
+.upload {
+    font-family: var(--firstfontfamily);
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 22px;
+    line-height: 20px;
+
+}
+
+.upload-image {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.cancel {
+    font-family: var(--firstfontfamily);
+    color: #FFFFFF;
+    text-align: end;
+    font-size: 22px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.detail {
+    padding-top: 50px;
+}
+
+.second-row {
+    padding-top: 30px;
+}
+
+
+
+
+.row-two-text-1 {
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    /* identical to box height, or 91% */
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.row-two-text-2 {
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 5px 20px 5px 20px;
+
+
+}
+
+.row-two-text-2-bg {
+    background: #E41779;
+    border-radius: 30px;
+}
+
+
+
+.drag {
+    width: 384px;
+    height: 110px;
+    margin: 0px auto !important;
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    /* or 91% */
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+.progressbar-height-1 {
+    height: 50px;
+}
+
+.progress-bar-padding-top-1 {
+    padding-top: 20px;
+}
+
+.progress-bar-padding-top-2 {
+    padding-top: 30px;
+}
+
+.button-row-padding-top {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.progressbar-height-2 {
+    height: 50px;
+}
+
+
+.vector {
+    height: auto;
+    width: auto;
+    left: 172px;
+    top: 900px;
+    border-radius: 0px;
+    /* margin: 10px 0px 10px 50px; */
+    padding: 10px 0px 10px 50px;
+}
+
+.sunny1 {
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    width: auto;
+    height: auto;
+}
+
+.sunny2 {
+    font-family: var(--firstfontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+}
+
+.abc {
+    /* background-color: darkblue; */
+    height: 50px;
+    width: 82px;
+    margin-left: 20px;
+}
+
+.in {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.input {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.input-padding-top {
+    padding-top: 30px;
+}
+
+
+.btn1 {
+    font-family: var(--secondfontfamily);
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #E41779;
+    font-size: 18px;
+    padding: 14px 45px 14px 45px;
+
+    box-shadow: none !important;
+
+}
+
+.btn:hover {
+    color: #E41779;
+}
+
+.btn2 {
+    font-family: var(--secondfontfamily);
+    background-color: #E41779;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 45px 15px 45px;
+    box-shadow: none !important;
+}
+
+.padding-btn1-img1 {
+    padding: 3px 50px 0px 0px;
+}
+
+
+.padding-btn2-img1 {
+    padding: 3px 0px 0px 50px;
+}
+
+
+@media only screen and (min-width: 1025) and (max-width: 1210px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .row-two-text-1 {
+
+        font-size: 14px;
+    }
+
+    .row-two-text-2 {
+        font-size: 14px;
+        padding: 5px 7px 5px 7px;
+    }
+
+    .drag {
+        font-size: 21px;
+        width: 300px;
+    }
+
+    .container {
+        max-width: 420px;
+    }
+
+    .progressbar-height-1 {
+        height: 40px;
+    }
+
+    .progressbar-height-2 {
+        height: 40px;
+    }
+
+    .sunny1 {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .sunny2 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .btn1 {
+        padding: 8px 20px 8px 20px;
+        font-size: 15px;
+    }
+
+    .btn2 {
+        padding: 8px 20px 8px 20px;
+        font-size: 15px;
+    }
+
+    .padding-btn1-img1 {
+        padding: 3px 20px 0px 0px;
+        width: 34px;
+    }
+
+    .padding-btn2-img1 {
+        padding: 3px 0px 0px 20px;
+        width: 34px;
+    }
+
+    .vector {
+        padding: 5px 0px 5px 40px;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+
+    .upload {
+        font-size: 17px;
+    }
+
+    .cancel {
+        font-size: 17px;
+    }
+
+
+    .row-two-text-1 {
+
+        font-size: 12px;
+    }
+
+    .row-two-text-2 {
+        font-size: 10px;
+        padding: 5px 3px 5px 4px;
+    }
+
+
+    label img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .drag {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .container {
+        max-width: 280px;
+    }
+
+
+    .abc {
+        height: 50px;
+        width: 82px;
+        margin-left: 10px;
+    }
+
+    .btn1 {
+        padding: 6px 15px 6px 15px;
+        font-size: 13px;
+    }
+
+    .btn2 {
+        padding: 6px 15px 6px 15px;
+        font-size: 13px;
+    }
+
+    .padding-btn1-img1 {
+        padding: 3px 20px 0px 0px;
+        width: 33px;
+    }
+
+    .padding-btn2-img1 {
+        padding: 3px 0px 0px 20px;
+        width: 33px;
+    }
+
+    .progressbar-height-1 {
+        height: 35px;
+    }
+
+    .progressbar-height-2 {
+        height: 35px;
+    }
+
+    .sunny1 {
+        font-size: 10px;
+        line-height: 21px;
+    }
+
+    .sunny2 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .vector {
+        padding: 5px 0px 5px 30px;
+    }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
+    .row-two-text-1 {
+
+        font-size: 13px;
+    }
+
+    .row-two-text-2 {
+        font-size: 8px;
+        padding: 5px 7px 5px 7px;
+    }
+
+    .upload {
+        font-size: 14px;
+    }
+
+    .cancel {
+        font-size: 14px;
+    }
+
+
+
+
+    label img {
+        width: 100%;
+        height: auto;
+    }
+
+    .drag {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .container {
+        max-width: 240px;
+    }
+
+
+    .btn1 {
+        padding: 6px 10px 6px 10px;
+        font-size: 12px;
+    }
+
+    .btn2 {
+        padding: 6px 10px 6px 10px;
+        font-size: 12px;
+    }
+
+    .padding-btn1-img1 {
+        padding: 3px 15px 0px 0px;
+        width: 26px;
+    }
+
+    .padding-btn2-img1 {
+        padding: 3px 0px 0px 15px;
+        width: 26px;
+    }
+
+    .progressbar-height-1 {
+        height: 30px;
+    }
+
+    .progressbar-height-2 {
+        height: 30px;
+    }
+
+    .sunny1 {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .sunny2 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .vector {
+        padding: 5px 0px 5px 25px;
+    }
+
+}

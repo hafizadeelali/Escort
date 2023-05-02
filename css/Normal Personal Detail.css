@@ -1,0 +1,558 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@300&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* End goole fonts */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #031521;
+}
+
+#escort-NPD {
+    background: #031521;
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+body {
+    background-color: #020F17;
+}
+
+.pic-uptate {
+    margin: 90px 0px 30px 0px;
+    height: 210px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.first-row p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.first-input {
+    padding: 14px 30px 14px 30px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.second-input {
+    padding: 14px 30px 14px 30px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.snd-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 30px 0px 10px 0px;
+}
+
+.Back {
+    margin: 50px 0px 90px 0px;
+    border: 0px;
+    color: #E41779;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E41779;
+    padding: 14px 45px 14px 45px;
+}
+
+.Back:hover {
+    background-color: #E41779 !important;
+    color: #FFFFFF !important;
+}
+
+.Next {
+    margin: 50px 0px 90px 0px;
+    border: 0px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background: #E41779;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    float: right;
+    padding: 14px 45px 14px 45px;
+}
+
+.Next:hover {
+    background-color: #C50260 !important;
+    color: #FFFFFF !important;
+
+
+}
+
+.fa-arrow-left {
+
+    padding-right: 50px;
+}
+
+.fa-arrow-right {
+    padding-left: 50px;
+}
+
+.we {
+    padding-right: 25px !important;
+}
+
+.wee {
+    padding-left: 25px !important;
+}
+
+/* ===================== MEDIA QUERY =========================*/
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
+    .ps-0 {
+        padding: 0px;
+    }
+
+    .pe-0 {
+        padding: 0px;
+    }
+
+    .fa-arrow-left {
+
+        padding-right: 10px;
+    }
+
+    .fa-arrow-right {
+        padding-left: 10px;
+    }
+
+
+
+    .we {
+        padding-left: 0px;
+
+    }
+
+    .wee {
+        padding-right: 0px;
+
+    }
+
+    .container {
+        padding: 0px 60px;
+    }
+
+    .col-input {
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+
+    .col-nput {
+        padding-right: 8px;
+    }
+
+    .we {
+        padding-right: 0px !important;
+    }
+
+    .wee {
+        padding-left: 0px !important;
+    }
+
+    .first-row {
+
+        padding: 30px 0px 0px 0px;
+    }
+
+    .first-row p {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+        line-height: 16px;
+    }
+
+    .first-input {
+        height: 30px;
+        padding: 14px 15px 14px 15px;
+        font-size: 14px;
+
+    }
+
+    .snd-p {
+        font-size: 14px;
+        margin: 15px 0px 5px 0px;
+        line-height: 16px;
+    }
+
+    .second-input {
+        height: 30px;
+        padding: 14px 15px 14px 15px;
+        font-size: 12px;
+    }
+
+    .Back {
+
+        padding: 6px 20px 6px 20px;
+        font-size: 12px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .Next {
+
+        padding: 6px 20px 6px 20px;
+        font-size: 12px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .fa-arrow-left {
+
+        padding-right: 10px;
+    }
+
+    .fa-arrow-right {
+        padding-left: 10px;
+    }
+
+    .container {
+        padding: 0px 40px;
+
+    }
+
+    #back {
+        padding-left: 0px !important;
+    }
+
+    #next {
+        padding-right: 0px;
+    }
+
+
+}
+
+.last-row {
+    margin: 30px 0px 10px 0px;
+    /* padding: 0px 20px 0px 20px; */
+
+}
+
+.last-heading {
+    color: #FFFFFF !important;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.last-row input {
+    height: 350px;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 10px;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 0px 30px !important;
+    }
+
+    .we {
+        padding-left: 0px;
+    }
+
+    .wee {
+        padding-right: 0px;
+    }
+
+    .container {
+        padding: 0px 60px;
+    }
+
+    .col-input {
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+
+    .col-nput {
+        padding-right: 8px;
+    }
+
+    .we {
+        padding-right: 0px !important;
+    }
+
+    .wee {
+        padding-left: 0px !important;
+    }
+
+    .first-row {
+
+        padding: 15px 0px 0px 0px;
+    }
+
+    .first-row p {
+        line-height: 16px;
+        font-size: 14px;
+        margin: 15px 0px 5px 0px !important;
+    }
+
+    .first-input {
+        height: 30px;
+        padding: 14px 15px 14px 15px;
+        font-size: 14px;
+
+    }
+
+    .snd-p {
+        line-height: 16px;
+        font-size: 14px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .second-input {
+        height: 30px;
+        padding: 14px 15px 14px 15px;
+        font-size: 12px;
+    }
+
+    .Back {
+
+        padding: 6px 20px 6px 20px;
+        font-size: 12px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .Next {
+
+        padding: 6px 20px 6px 20px;
+
+        font-size: 12px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .fa-arrow-left {
+
+        padding-right: 10px;
+    }
+
+    .fa-arrow-right {
+        padding-left: 10px;
+    }
+
+    #back {
+        padding-left: 0px !important;
+    }
+
+    #next {
+        padding-right: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .pic-uptate {
+        margin: 60px 0px 0px 0px;
+    }
+
+    .container {
+        padding: 0px 60px;
+    }
+
+    .first-row p {
+        line-height: 16px !important;
+        font-size: 14px;
+        margin: 15px 0px 5px 0px !important;
+    }
+
+    .first-input {
+        height: 40px;
+        padding: 14px 15px 14px 15px !important;
+        font-size: 14px;
+
+    }
+
+    .snd-p {
+        line-height: 16px !important;
+        margin: 15px 0px 5px 0px !important;
+        font-size: 14px;
+
+    }
+
+    .second-input {
+        height: 40px;
+        padding: 14px 15px 14px 15px;
+        font-size: 14px;
+    }
+
+    .Back {
+        padding: 10px 30px 10px 30px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .Next {
+        padding: 10px 30px 10px 30px;
+
+        margin-top: 30px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .fa-arrow-left {
+
+        padding-right: 30px;
+    }
+
+    .fa-arrow-right {
+        padding-left: 30px;
+    }
+
+    #back {
+        padding-left: 9px !important;
+    }
+
+    #next {
+        padding-right: 9px;
+    }
+
+    .we {
+        padding-right: 10px !important;
+    }
+
+    .wee {
+        padding-left: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width:1440px) {
+    .pic-uptate {
+        max-width: 1200px;
+    }
+
+}

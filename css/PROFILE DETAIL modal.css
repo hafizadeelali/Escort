@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/lucas-kapla-R79qkPYvrcM-unsplash.jpg);
+}
+
+#phone-num {
+    max-width: 800px;
+    /* margin-top: 400px; */
+    border-radius: 10px;
+}
+
+#phone-num .modal-content {
+    border-radius: 10px;
+}
+
+#phone-num .modal-header {
+    border: none;
+    background: #E41779;
+    border-radius: 8px 8px 0px 0px;
+    height: 50px;
+    padding: 10px 30px;
+}
+
+#phone-num .modal-header .modal-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#phone-num .modal-header .btn-close {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    background: transparent url(../img/Vector.png) center/1em auto no-repeat;
+}
+
+#phone-num .modal-header .btn-close:focus {
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: #E41779;
+    border-color: #E41779 !important;
+}
+
+#phone-num .modal-body {
+    background-color: gray;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#phone-num .modal-body .check-box {
+    background-color: #fff;
+    height: 50px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+#phone-num .modal-body .check-box input {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#phone-num .modal-body .check-box input:focus {
+    box-shadow: none;
+}
+
+#phone-num .modal-body .check-box label {
+    padding: 4px 45px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ABABAB;
+}
+
+#phone-num .modal-body .check-box img {
+    float: right;
+}
+
+#phone-num .modal-body p {
+    padding: 50px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #phone-num {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #phone-num {
+        max-width: 650px;
+    }
+
+    #phone-num .modal-body p {
+        padding: 40px;
+        margin: 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #phone-num .modal-body .check-box label {
+        font-size: 16px;
+    }
+
+    #phone-num .modal-header .modal-title {
+        font-size: 18px;
+    }
+
+    #phone-num .modal-header .btn-close {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #phone-num .modal-header .modal-title {
+        font-size: 16px;
+    }
+
+    #phone-num .modal-body p {
+        padding: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #phone-num .modal-header {
+        padding: 10px 20px;
+    }
+
+    #phone-num .modal-header .btn-close {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #phone-num .modal-body .check-box label {
+        padding: 0px 30px 0px 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #phone-num .modal-body .check-box {
+        height: 40px;
+        padding: 4px 20px;
+        margin-bottom: 30px;
+    }
+
+    #phone-num .modal-body .check-box input {
+        height: 15px;
+        width: 15px;
+    }
+
+    #phone-num .modal-body .check-box img {
+        height: 27px;
+        width: 27px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #phone-num .modal-header .modal-title {
+        font-size: 14px;
+    }
+
+    #phone-num .modal-body p {
+        padding: 20px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    #phone-num .modal-header {
+        padding: 10px 15px;
+    }
+
+    #phone-num .modal-header .btn-close {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    #phone-num .modal-body .check-box label {
+        padding: 0px 30px 0px 0px;
+        font-size: 12px;
+    }
+
+    #phone-num .modal-body .check-box {
+        height: 35px;
+        padding: 5px 20px;
+        margin-bottom: 30px;
+    }
+
+    #phone-num .modal-body .check-box input {
+        height: 13px;
+        width: 13px;
+        margin-top: 6px;
+    }
+
+    #phone-num .modal-body .check-box img {
+        height: 25px;
+        width: 25px;
+    }
+}

@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #031521;
+    border-radius: 0px;
+}
+
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+
+.dmca-main-area {
+    border: 1px solid #E41779;
+    margin: 90px 0px 90px;
+    padding: 50px 30px 52px 30px;
+}
+
+.dmca-main-area ul li:first-child {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.dmca-main-area ul li:nth-child(2) {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+.dmca-main-area ul li:nth-child(3) {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.dmca-main-area ul .in-li {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+    list-style-type: disc !important;
+}
+
+.dmca-main-area ul li:nth-child(5) {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+
+.dmca-main-area ul li:nth-child(6) {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+
+.dmca-main-area ul li:nth-child(7) {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+
+.dmca-main-area .in li:first-child {
+    margin-bottom: 10px;
+}
+
+.dmca-main-area .in li:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.dmca-main-area .in li:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.dmca-main-area .in li:nth-child(4) {
+    margin-bottom: 10px !important;
+    margin-top: 0px;
+}
+
+.dmca-main-area .in li:nth-child(5) {
+    margin-bottom: 10px !important;
+    margin-top: 0px;
+}
+
+.dmca-main-area .in li:nth-child(6) {
+    margin-bottom: 10px !important;
+    margin-top: 0px;
+}
+
+
+@media only screen and (min-width:280px)and (max-width: 320px) {
+
+
+    .dmca-main-area ul li:first-child {
+
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .dmca-main-area {
+        border: 1px solid #E41779;
+        margin-top: 30px;
+        padding: 20px 10px 4px 5px;
+    }
+
+    .dmca-main-area ul li:nth-child(2) {
+
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(3) {
+
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(5) {
+
+        font-size: 12px !important;
+        margin-top: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(6) {
+
+        font-size: 14px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(7) {
+
+        font-size: 14px !important;
+        margin-top: 5px !important;
+
+    }
+
+    .dmca-main-area ul .in-li {
+        font-size: 12px !important;
+    }
+
+    .dmca-main-area ul {
+        padding-left: 1rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+
+    .dmca-main-area ul li:first-child {
+
+        font-size: 16px !important;
+        margin-bottom: 15px !important;
+
+    }
+
+    .dmca-main-area {
+        border: 1px solid #E41779;
+        margin: 30px 0px 30px 0px;
+        padding: 30px 15px 16px 15px;
+    }
+
+    .dmca-main-area ul li:nth-child(2) {
+
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(3) {
+
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(5) {
+
+        font-size: 14px !important;
+        margin-top: 10px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(6) {
+
+        font-size: 14px !important;
+        margin-top: 5px !important;
+
+    }
+
+    .dmca-main-area ul li:nth-child(7) {
+
+        font-size: 14px !important;
+        margin-top: 5px !important;
+
+    }
+
+    .dmca-main-area ul .in-li {
+        font-size: 13px !important;
+    }
+
+    .dmca-main-area ul {
+        padding-left: 1rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .dmca-main-area ul {
+
+        margin: 60px 0px 60px 0px;
+        padding: 30px 15px 30px 15px;
+
+    }
+
+    .dmca-main-area ul li:first-child {
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    .dmca-main-area ul li:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .dmca-main-area ul li:nth-child(3) {
+        font-size: 16px;
+        margin-bottom: 20px !important;
+    }
+
+    .dmca-main-area ul .in-li {
+        font-size: 16px !important;
+    }
+
+    .dmca-main-area ul li:nth-child(5) {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+}
+
+/* *Small Laptop/Large Tablet * */
+@media only screen and (min-width: 769px) and (max-width: 991px) {}
+
+/* * Laptop * */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+/* * Desktop * */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {}

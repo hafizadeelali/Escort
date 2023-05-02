@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/lucas-kapla-R79qkPYvrcM-unsplash.jpg);
+    background-size: cover;
+}
+
+#review {
+    max-width: 1202px;
+    /* margin-top: 400px; */
+    border-radius: 10px;
+}
+
+#review .modal-content {
+    border-radius: 10px;
+    background: transparent;
+}
+
+#review .modal-header {
+    border: none;
+    background: #E41779;
+    border-radius: 8px 8px 0px 0px;
+    height: 50px;
+    padding: 10px 30px;
+}
+
+#review .modal-header .modal-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#review .modal-header .btn-close {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    background: transparent url(../img/Vector.png) center/1em auto no-repeat;
+}
+
+#review .modal-header .btn-close:focus {
+    box-shadow: none;
+}
+
+#review .modal-body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.458878) 0.01%, rgba(255, 255, 255, 0.35649) 99.97%, rgba(255, 255, 255, 0.247262) 99.98%, rgba(255, 255, 255, 0.143229) 99.99%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(170px);
+    padding: 30px;
+}
+
+#review .modal-body input {
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    background: transparent;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.input-name {
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.input-email {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+#review .modal-body label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+#review .modal-body .comment-text-area {
+    margin-top: 30px;
+}
+
+#review .modal-body .comment-text-area textarea {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    height: 150px !important;
+    background: transparent;
+}
+
+
+#review .modal-body .screenshots {
+    margin-top: 30px;
+}
+
+#review .modal-body .screenshots .upload-file {
+    height: 210px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+#review .modal-body .screenshots .upload-file h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 30px;
+    width: 306px;
+}
+
+.some-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+#review .modal-body .signin-btn {
+    margin-top: 50px;
+}
+
+#review .modal-body .signin-btn button {
+    width: 100%;
+    height: 50px;
+    background: #E41779;
+    border-radius: 50px;
+    border: #E41779;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+/* BEGIN: RATING AREA */
+.rating {
+    margin-top: 30px;
+}
+
+.rate-area {
+    float: left;
+    border-style: none;
+    padding: 0px;
+}
+
+.rate-area:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.rate-area:not(:checked)>label {
+    float: right;
+    width: 0.8em !important;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 180%;
+    color: white !important;
+    font-size: 37px !important;
+    margin-left: 10px;
+}
+
+.rate-area:not(:checked)>label:before {
+    content: "★";
+}
+
+.rate-area>input:checked~label {
+    color: #E41779 !important;
+}
+
+.rate-area:not(:checked)>label:hover,
+.rate-area:not(:checked)>label:hover~label {
+    color: #E41779 !important;
+}
+
+.rate-area>input:checked+label:hover,
+.rate-area>input:checked+label:hover~label,
+.rate-area>input:checked~label:hover,
+.rate-area>input:checked~label:hover~label,
+.rate-area>label:hover~input:checked~label {
+    color: #E41779 !important;
+}
+
+/* END: RETING AREA */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    #review {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #review {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #review {
+        max-width: 600px;
+    }
+
+    .input-name {
+        padding: 0px;
+    }
+
+    .input-email {
+        padding: 0px;
+    }
+
+    #review .modal-body label {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    #review .modal-header .btn-close {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    #review .modal-body .signin-btn {
+        margin-top: 20px;
+    }
+
+    #review .modal-body .comment-text-area {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #review .modal-body {
+        padding: 20px;
+    }
+
+    #review .modal-header .modal-title {
+        font-size: 16px;
+    }
+
+    #review .modal-header .btn-close {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #review .modal-header {
+        padding: 10px 20px;
+    }
+
+    .input-name {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .input-email {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    #review .modal-body label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #review .modal-body input {
+        height: 35px;
+    }
+
+    #review .modal-body .comment-text-area {
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    #review .modal-body .screenshots {
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    #review .modal-body .screenshots .upload-file h4 {
+        font-size: 16px;
+        margin-top: 20px;
+        width: 210px;
+    }
+
+    #review .modal-body .signin-btn button {
+        height: 35px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .some-text {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    #review .modal-body .signin-btn {
+        margin-top: 5px;
+        padding: 0px;
+    }
+
+    .rating {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #review .modal-body {
+        padding: 20px;
+    }
+
+    #review .modal-header .modal-title {
+        font-size: 14px;
+    }
+
+    #review .modal-header {
+        padding: 10px 20px;
+    }
+
+    #review .modal-header .btn-close {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .input-name {
+        padding: 0px;
+        margin-top: 15px;
+    }
+
+    .input-email {
+        padding: 0px;
+        margin-top: 15px;
+    }
+
+    #review .modal-body label {
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 24px;
+    }
+
+    #review .modal-body input {
+        height: 30px;
+    }
+
+    #review .modal-body .comment-text-area {
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    #review .modal-body .screenshots {
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    #review .modal-body .screenshots .upload-file h4 {
+        font-size: 14px;
+        margin-top: 15px;
+        width: 210px;
+    }
+
+    #review .modal-body .signin-btn button {
+        height: 30px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .some-text {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    #review .modal-body .signin-btn {
+        margin-top: 5px;
+        padding: 0px;
+    }
+
+    .rating {
+        margin-top: 20px;
+    }
+
+    .star-size {
+        font-size: 30px !important;
+    }
+}

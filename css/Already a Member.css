@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/lucas-kapla-R79qkPYvrcM-unsplash.jpg);
+    background-size: cover;
+}
+
+#already-member {
+    max-width: 600px;
+    /* margin-top: 400px; */
+    border-radius: 10px;
+}
+
+#already-member .modal-content {
+    border-radius: 10px;
+    background: transparent;
+}
+
+#already-member .modal-header {
+    border: none;
+    background: #E41779;
+    border-radius: 8px 8px 0px 0px;
+    height: 50px;
+    padding: 10px 30px;
+}
+
+#already-member .modal-header .modal-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#already-member .modal-header .btn-close {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    background: transparent url(../img/Vector.png) center/1em auto no-repeat;
+}
+
+#already-member .modal-header .btn-close:focus {
+    box-shadow: none;
+}
+
+#already-member .modal-body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.458878) 0.01%, rgba(255, 255, 255, 0.35649) 99.97%, rgba(255, 255, 255, 0.247262) 99.98%, rgba(255, 255, 255, 0.143229) 99.99%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(170px);
+    padding: 30px;
+}
+
+#already-member .modal-body .input-section {
+    padding-bottom: 30px;
+}
+
+#already-member .modal-body .input-section .input1 {
+    padding-bottom: 30px;
+}
+
+#already-member .modal-body .input-section input {
+    height: 50px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+#already-member .modal-body .input-section label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+#already-member .modal-body button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #E41779;
+    border: 1px solid #E41779;
+    border-radius: 125px;
+    height: 50px;
+}
+
+.not-member {
+    padding: 30px 0px 10px 0px;
+}
+
+.not-member h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.not-member a {
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #already-member .modal-header .btn-close {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .not-member h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .not-member a {
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #already-member .modal-body .input-section label {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #already-member .modal-body .input-section .input1 {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #already-member .modal-body {
+        padding: 20px;
+    }
+
+    #already-member .modal-header .modal-title {
+        font-size: 16px;
+    }
+
+    #already-member .modal-header .btn-close {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #already-member .modal-body .input-section .input1 {
+        padding-bottom: 20px;
+    }
+
+    #already-member .modal-body .input-section {
+        padding-bottom: 20px;
+    }
+
+    .not-member {
+        padding: 20px 0px 10px 0px;
+    }
+
+    .not-member h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        line-height: 20px;
+    }
+
+    .not-member a {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #already-member .modal-body .input-section label {
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+
+    #already-member .modal-body .input-section input {
+        height: 35px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    #already-member .modal-header {
+        padding: 10px 20px;
+    }
+
+    #already-member .modal-body button {
+        font-size: 14px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #already-member .modal-body {
+        padding: 20px;
+    }
+
+    #already-member .modal-header .modal-title {
+        font-size: 14px;
+    }
+
+    #already-member .modal-body .input-section .input1 {
+        padding-bottom: 15px;
+    }
+
+    #already-member .modal-body .input-section {
+        padding-bottom: 20px;
+
+    }
+
+    .not-member {
+        padding: 20px 0px 10px 0px;
+    }
+
+    .not-member h4 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        line-height: 20px;
+        line-height: 20px;
+    }
+
+    .not-member a {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #already-member .modal-body .input-section label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+
+    #already-member .modal-body .input-section input {
+        height: 30px;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    #already-member .modal-header {
+        padding: 10px 20px;
+    }
+
+    #already-member .modal-header .btn-close {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    #already-member .modal-body button {
+        font-size: 16px;
+        line-height: 16px;
+        height: 30px;
+    }
+}

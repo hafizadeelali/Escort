@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+
+
+.contact-us-main {
+
+
+    padding: 90px 0px 90px 0px;
+    color: #FFFFFF;
+    background: #031521;
+}
+
+.contact-us-call {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+
+}
+
+
+.contact-us-call em {
+    color: #E41779;
+}
+
+
+.contact-us-call img {
+    width: 22px;
+    height: 22px;
+
+    margin: 0px 5px 0px 5px;
+}
+
+.contact-us-touch {
+    font-family: 'Inter ', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.contact-us-input {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contact-us-input p {
+    margin-bottom: 10px;
+}
+
+.contact-us-input input {
+    width: 100%;
+    height: 50px;
+    background: #031521;
+    border: 2px solid #EFEFEF;
+    border-radius: 50px;
+    color: white;
+    box-shadow: none;
+    outline: none;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.contact-us-textarea p {
+    margin-bottom: 10px;
+}
+
+.contact-us-textarea {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    line-height: 24px;
+}
+
+.contact-us-textarea textarea {
+    background-color: #031521;
+    width: 100%;
+    resize: none;
+    color: white;
+    height: 200px;
+    box-shadow: none;
+    outline: none;
+    padding: 20px 30px;
+
+    border: 2px solid #EFEFEF;
+    border-radius: 10px;
+}
+
+
+.contact-us-btn button {
+    width: 100%;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    background: #E41779;
+    border: 1px solid #E41779;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+
+.contact-us-btn button:hover {
+    background: #c50260;
+    border: 1px solid #c50260;
+    color: white;
+}
+
+
+/* media query */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 767px) {
+    .contact-us-call {
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us-touch {
+        margin-bottom: 40px;
+    }
+
+    .contact-us-call img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .contact-us-main {
+        padding: 60px 0px
+    }
+
+    .contact-us-input input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us-btn button {
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .contact-us-main {
+        padding: 30px 20px 30px 20px;
+
+    }
+
+    .contact-us-call {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .contact-us-touch {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .contact-us-input {
+        font-size: 16px;
+    }
+
+    .contact-us-input p {
+        margin-bottom: 5px;
+        line-height: 15px;
+    }
+
+    .contact-us-input input {
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .contact-us-textarea {
+        font-size: 16px;
+    }
+
+    .contact-us-textarea textarea {
+        height: 130px;
+        padding-left: 10px;
+    }
+
+    .contact-us-textarea p {
+        margin-bottom: 5px;
+        line-height: 15px;
+    }
+
+    .contact-us-btn button {
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .contact-us-call img {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .contact-us-call {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-us-call {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .contact-us-touch {
+        margin-bottom: 20px;
+    }
+
+    .contact-us-btn button {
+        margin-top: 20px;
+    }
+
+    .contact-us-call img {
+        width: 15px;
+        height: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .contact-us-call {
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+    .contact-us-input input {
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .contact-us-input {
+        font-size: 12px;
+    }
+
+    .contact-us-touch {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .contact-us-textarea textarea {
+        height: 130px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+}

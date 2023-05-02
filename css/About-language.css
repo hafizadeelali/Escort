@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+
+
+.About-language-main {
+    padding: 90px 0px 90px 0px;
+    color: white;
+
+    background: #031521;
+}
+
+.About-language-col-1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+
+
+.About-language-col-1 textarea {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    margin-bottom: 30px;
+}
+
+.lang-input-col {
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+}
+
+.lang-input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+    outline: none;
+    padding: 14px 30px;
+    margin: 0px 30px 0px 0px;
+    width: 60%;
+}
+
+.language-progress {
+    width: 100px;
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+}
+
+.language-progress input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /* background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%); */
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 14px 0px 14px 20px;
+    width: 60%;
+}
+
+.language-progress span {
+    width: 30%;
+    padding-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E41779;
+}
+
+#lang-input-col-sec {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lang-input-col-language p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+#lang-input-col-third {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+#lang-input-col-third-danish {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.about-lang-btnn {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pre-btn {
+    padding: 14px 45px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E41779;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pre-btn:hover {
+    background: #C50260;
+    border: 1px solid #C50260;
+
+    color: #FFFFFF;
+
+}
+
+.about-lang-arrow-left {
+    padding-right: 50px;
+    padding-top: 2px;
+
+
+}
+
+.next-btn {
+    padding: 14px 45px;
+    background: #E41779;
+    border: 1px solid #E41779;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+
+}
+
+.next-btn:hover {
+    background: #C50260;
+    border: 1px solid #C50260;
+
+    color: white;
+
+}
+
+
+.about-lang-arrow-right {
+    padding-left: 50px;
+    padding-top: 2px;
+
+
+}
+
+/* media query */
+
+@media only screen and (max-width:767px) {
+    .about-lang-arrow-left {
+        padding-right: 40px;
+        padding-top: 2px;
+    }
+
+    .about-lang-arrow-right {
+        padding-left: 40px;
+        padding-top: 2px;
+    }
+
+    .pre-btn {
+        padding: 11px 30px;
+    }
+
+    .next-btn {
+        padding: 11px 30px;
+    }
+
+    .About-language-col-1 textarea {
+        padding: 10px 20px;
+    }
+
+    #lang-input-col-sec {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .lang-input {
+        width: 76%;
+        height: 40px;
+        padding: 14px 20px;
+    }
+
+    .language-progress input {
+        padding: 7px 0px 7px 20px;
+    }
+
+    .language-progress {
+        height: 40px;
+    }
+
+    .About-language-main {
+        padding: 60px 0px 62px 0px;
+        color: white;
+    }
+
+    #lang-input-col-third {
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+    }
+
+    #lang-input-col-third-danish {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width:576px) {
+    .language-progress input {
+        padding: 7px 0px 14px 15px;
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .language-progress span {
+        width: 4%;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+
+    .About-language-main {
+        padding: 30px 30px 30px 30px;
+        color: white;
+    }
+
+    .About-language-col-1 textarea {
+        height: 160px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .lang-input-col-language p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .lang-input {
+        font-size: 14px;
+        line-height: 16px;
+        ;
+        padding: 0px 19px;
+        height: 40px;
+    }
+
+    .language-progress {
+        width: 100px;
+        height: 40px;
+    }
+
+    #lang-input-col-third {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+
+    #lang-input-col-third-danish {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #lang-input-col-sec {
+        margin-top: 15px;
+    }
+
+    .pre-btn {
+        padding: 7px 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .next-btn {
+        padding: 7px 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-lang-arrow-right {
+        padding-left: 7px;
+    }
+
+    .about-lang-arrow-left {
+        padding-right: 10px;
+    }
+
+    .About-language-col-1 p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .lang-input {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0px 15px;
+        height: 35px;
+    }
+
+    .language-progress {
+        height: 35px;
+    }
+
+    .language-progress input {
+        padding: 4px 0px 7px 15px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .language-progress input {
+        padding: 2px 0px 0px 15px;
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .language-progress span {
+        width: 4%;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+
+
+
+    .About-language-col-1 textarea {
+        height: 120px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .lang-input-col-language p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .lang-input {
+        font-size: 12px;
+        line-height: 16px;
+        ;
+        padding: 0px 15px;
+        height: 30px;
+    }
+
+    .language-progress {
+        width: 100px;
+        height: 30px;
+    }
+
+    #lang-input-col-third {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    #lang-input-col-third-danish {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    #lang-input-col-sec {
+        margin-top: 10px;
+    }
+
+    .pre-btn {
+        padding: 6px 20px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .next-btn {
+        padding: 6px 20px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about-lang-arrow-right {
+        padding-left: 7px;
+        font-size: 10px;
+    }
+
+    .about-lang-arrow-left {
+        padding-right: 10px;
+        padding-top: 1px;
+        font-size: 11px;
+    }
+
+    .About-language-col-1 p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .pre-btn {
+        padding: 6px 14px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .next-btn {
+        padding: 6px 14px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about-lang-arrow-right {
+        padding-left: 5px;
+    }
+
+    .about-lang-arrow-left {
+        padding-right: 8px;
+    }
+}

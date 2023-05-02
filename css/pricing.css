@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(3, 21, 33, 1);
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+
+
+.head-text {
+    padding: 90px 283px 50px 283px;
+}
+
+.heading-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.body-center {
+    padding: 0px 220px 90px 220px;
+}
+
+.heading_main {
+    background-color: #E41779;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.head-heading p,
+.heading_main p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.head-heading {
+    padding: 50px 0px 30px;
+}
+
+.line-cards {
+    padding: 0px 35px;
+}
+
+.card-box-first {
+    padding: 0px 15px;
+}
+
+.card-box-first .card {
+    height: 110px;
+}
+
+.card-box-first .card-img-overlay {
+    padding: 30px 0px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.second-lin {
+    padding: 30px 35px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.popup-first {
+    background: #E41779;
+    border-radius: 10px;
+}
+
+.pop-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.pop-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.pad-extra {
+    padding: 44px 0px;
+}
+
+.heading-image {
+    padding: 35px 0px;
+}
+
+.heading-after-text {
+    padding: 20px 30px 24px 1px;
+}
+
+.mars-t {
+    margin-top: 20px;
+}
+
+.credit-icon {
+    height: 60px;
+    width: 75px;
+}
+
+.crypto-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.pay-icon {
+    height: 43px;
+    width: 127px;
+}
+
+.bank-icon {
+    height: 60px;
+    width: 75px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    .head-text {
+        padding: 80px 140px 50px 140px;
+    }
+
+    .body-center {
+        padding: 0px 100px 80px 100px;
+    }
+
+    .card-box-first {
+        padding: 0px 12px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .head-text {
+        padding: 80px 140px 50px 140px;
+    }
+
+    .body-center {
+        padding: 0px 100px 80px 100px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+    }
+
+    .head-heading p,
+    .heading_main p,
+    .pop-heading,
+    .heading-text p {
+        font-size: 18px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-box-first {
+        padding: 0px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .head-text {
+        padding: 60px 100px 40px 100px;
+    }
+
+    .body-center {
+        padding: 0px 80px 60px 80px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .head-heading p,
+    .heading_main p,
+    .heading-text p {
+        font-size: 16px;
+
+    }
+
+    .line-cards {
+        padding: 0px 25px;
+    }
+
+    .second-lin {
+        padding: 25px 25px 0px;
+    }
+
+    .heading_main {
+        padding: 10px 0px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .head-heading {
+        padding: 25px 0px 20px !important;
+    }
+
+    .card-text {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .heading-image {
+        padding: 34px 0px;
+    }
+
+    .heading-after-text {
+        padding: 10px 30px 14px 0px;
+    }
+
+    .card-box-first {
+        padding: 0px 10px;
+    }
+
+    .card-box-first .card-img-overlay {
+        padding: 17px 0px;
+    }
+
+    .card-box-first .card {
+        height: 85px;
+    }
+
+    .credit-icon {
+        height: 45px;
+        width: 60px;
+    }
+
+    .crypto-icon {
+        height: 45px;
+        width: 45px;
+    }
+
+    .pay-icon {
+        height: 33px;
+        width: 110px;
+    }
+
+    .bank-icon {
+        height: 45px;
+        width: 60px;
+    }
+
+    .pop-heading {
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .head-text {
+        padding: 50px 50px 40px 50px;
+    }
+
+    .body-center {
+        padding: 0px 30px 50px 30px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .head-heading p,
+    .heading_main p,
+    .heading-text p {
+        font-size: 16px;
+
+    }
+
+    .line-cards {
+        padding: 0px 25px;
+    }
+
+    .second-lin {
+        padding: 25px 25px 0px;
+    }
+
+    .heading_main {
+        padding: 10px 0px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .head-heading {
+        padding: 25px 0px 20px !important;
+    }
+
+    .card-text {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .heading-image {
+        padding: 37px 0px;
+    }
+
+    .heading-after-text {
+        padding: 10px 30px 14px 0px;
+    }
+
+    .card-box-first {
+        padding: 0px 10px;
+    }
+
+    .card-box-first .card-img-overlay {
+        padding: 17px 0px;
+    }
+
+    .card-box-first .card {
+        height: 85px;
+    }
+
+    .credit-icon {
+        height: 45px;
+        width: 60px;
+    }
+
+    .crypto-icon {
+        height: 45px;
+        width: 45px;
+    }
+
+    .pay-icon {
+        height: 33px;
+        width: 110px;
+    }
+
+    .bank-icon {
+        height: 45px;
+        width: 60px;
+    }
+
+    .pop-heading {
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    .head-text {
+        padding: 40px 50px 30px 50px;
+    }
+
+    .body-center {
+        padding: 0px 30px 40px 30px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .head-heading p,
+    .heading_main p,
+    .heading-text p {
+        font-size: 14px;
+
+    }
+
+    .line-cards {
+        padding: 0px 20px;
+    }
+
+    .second-lin {
+        padding: 20px 20px 0px;
+    }
+
+    .mr-shot-screen {
+        margin-top: 16px;
+    }
+
+    .heading_main {
+        padding: 8px 0px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .head-heading {
+        padding: 20px 0px 15px !important;
+    }
+
+    .card-text {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .pad-extra,
+    .heading-image {
+        padding: 20px 0px;
+    }
+
+    .heading-after-text {
+        padding: 10px 30px 10px 38px;
+    }
+
+    .card-box-first {
+        padding: 0px 8px;
+    }
+
+    .card-box-first .card-img-overlay {
+        padding: 17px 0px;
+    }
+
+    .card-box-first .card {
+        height: 85px;
+    }
+
+    .credit-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .crypto-icon {
+        height: 60px;
+        width: 55px;
+    }
+
+    .pay-icon {
+        height: 40px;
+        width: 110px;
+    }
+
+    .bank-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .pop-heading {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 600;
+
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .head-text {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .body-center {
+        padding: 0px 30px 30px 30px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .heading-text p {
+        font-size: 13px;
+
+    }
+
+    .head-heading p,
+    .heading_main p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .heading_main {
+        padding: 6px 0px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .head-heading {
+        padding: 20px 0px 15px !important;
+    }
+
+    .card-text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .line-cards {
+        padding: 0px 12px;
+    }
+
+    .second-lin {
+        padding: 15px 12px 0px;
+    }
+
+    .pad-extra,
+    .heading-image {
+        padding: 20px 0px;
+    }
+
+    .heading-after-text {
+        padding: 10px 30px 10px 38px;
+    }
+
+    .mr-shot-screen {
+        margin-top: 16px;
+    }
+
+    .card-box-first {
+        padding: 0px 8px;
+    }
+
+    .card-box-first .card-img-overlay {
+        padding: 17px 0px;
+    }
+
+    .card-box-first .card {
+        height: 85px;
+    }
+
+    .credit-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .crypto-icon {
+        height: 55px;
+        width: 55px;
+    }
+
+    .pay-icon {
+        height: 35px;
+        width: 110px;
+    }
+
+    .bank-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .pop-heading {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 600;
+
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .card-box-first {
+        width: 100%;
+    }
+
+    .mc-shot-col {
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card-box-first {
+        width: 100%;
+    }
+
+    .mc-shot-col {
+        margin-top: 16px;
+    }
+
+    .head-text {
+        padding: 30px 15px 30px 15px;
+    }
+
+    .body-center {
+        padding: 0px 15px 30px 15px;
+    }
+
+    .pop-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .heading-text p {
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+
+    .head-heading p,
+    .heading_main p {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+
+    .heading_main {
+        padding: 6px 0px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .head-heading {
+        padding: 20px 0px 15px !important;
+    }
+
+    .card-text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .line-cards {
+        padding: 0px 12px;
+    }
+
+    .second-lin {
+        padding: 15px 12px 0px;
+    }
+
+    .pad-extra,
+    .heading-image {
+        padding: 20px 0px;
+    }
+
+    .heading-after-text {
+        padding: 10px 20px 14px 25px;
+    }
+
+    .mr-shot-screen {
+        margin-top: 16px;
+    }
+
+    .card-box-first {
+        padding: 0px 8px;
+    }
+
+    .card-box-first .card-img-overlay {
+        padding: 17px 0px;
+    }
+
+    .card-box-first .card {
+        height: 85px;
+    }
+
+    .credit-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .crypto-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .pay-icon {
+        height: 35px;
+        width: 110px;
+    }
+
+    .bank-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    .pop-heading {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+}

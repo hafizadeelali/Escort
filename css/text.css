@@ -1,0 +1,288 @@
+/* ===== GOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*  ===== END GOOGLE FONTS ==== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #031521;
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+.main {
+    border: 1px solid #E41779;
+    margin: 90px 0px 90px 0px;
+    padding: 30px 30px 40px 32px;
+}
+
+
+
+li {
+
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Aut {
+
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.Aut p {
+    margin: 20px 0px 20px 0px;
+}
+
+
+
+/* ======================= MEDIA QURY======================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .Aut {
+        font-size: 18px;
+    }
+
+    .Aut p {
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .main {
+        border: 1px solid #E41779;
+        margin: 30px 0px 60px 0px;
+        padding: 20px 15px 20px 15px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .main {
+        border: 1px solid #E41779;
+        margin: 30px 0px 30px 0px;
+        padding: 10px 15px 20px 0px;
+    }
+
+    .Aut p {
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    li {
+        line-height: 130%;
+        font-size: 14px;
+    }
+
+    li.Aut::marker {
+        font-size: 16px !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
+    .main {
+        border: 1px solid #E41779;
+        margin: 30px 0px 30px 0px;
+        padding: 10px 15px 10px 10px;
+    }
+
+    .Aut p {
+        font-size: 14px;
+        margin: 10px 0px 10px 0px !important;
+    }
+
+    li {
+        line-height: 130%;
+        font-size: 12px;
+    }
+
+    li.Aut::marker {
+        font-size: 14px !important;
+    }
+
+    ol {
+        padding-left: 1rem;
+    }
+}
+
+
+
+
+
+/* 
+@media only screen and (min-width: 481px) and (max-width: 767) {
+
+    .Aut {
+        font-size: 14px;
+    }
+
+    .Aut p {
+
+        margin: 10px 0px 10px 0px;
+
+    }
+
+    .main {
+        border: 1px solid #E41779;
+        margin: 60px 0px 60px 0px;
+        padding: 20px 15px 20px 15px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+    .main {
+        border: 1px solid #E41779;
+        margin: 50px 0px 90px 0px;
+        padding: 30px 30px 40px 32px;
+    }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+    .Aut {
+        font-size: 12px;
+    }
+
+    .Aut p {
+
+        margin: 8px 0px 8px 0px;
+
+    }
+
+    .main {
+        border: 1px solid #E41779;
+        margin: 60px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    li {
+        font-size: 12px;
+        margin-bottom: 6px;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+* Laptop * @media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+* Desktop * @media only screen and (min-width: 1025px) and (max-width: 1200px) {} */

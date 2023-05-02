@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@300&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background: #031521;
+  border-radius: 0px;
+
+}
+
+.first-1 {
+  padding: 20px 0px 20px 50px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+/* top area */
+
+.escort-profile-area .card {
+  height: 320px;
+  width: 100%;
+}
+
+.escort-profile-area .card img {
+  border-radius: 0px;
+  height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+  background: rgba(71, 31, 43, 0.1);
+  backdrop-filter: blur(45px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .escort-profile-area .card .card-body p {
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .escort-profile-area .card {
+    height: 250px;
+  }
+
+  .escort-profile-area .card img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 479px) {
+  .escort-profile-area .card .card-body p {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .escort-profile-area .card {
+    height: 200px;
+  }
+
+  .escort-profile-area .card img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .escort-navbar .navbar-brand {
+    margin: 0px !important;
+    padding: 0px;
+  }
+
+  .escort-profile-area .card .card-body p {
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .escort-profile-area .card {
+    height: 160px;
+  }
+
+  .escort-profile-area .card img {
+    height: 160px;
+  }
+}
+
+/* top area end */
+.ali {
+  margin-left: 61px !important;
+}
+
+.ali-5 {
+  margin-left: 41px;
+}
+
+.ali-6 {
+  margin-left: 54px;
+}
+
+.ali-7 {
+  margin-left: 54px;
+
+}
+
+
+.main {
+
+  /* width: 894px; */
+  border: 2px solid #EFEFEF;
+  border-radius: 5px;
+  margin-top: 90px;
+  padding: 10px 50px 20px 50px;
+
+}
+
+.main span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+}
+
+.Escorts-radio span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+}
+
+/* ========== radio btn =========== */
+
+
+
+
+input[type="radio"] {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #E41779;
+  background-color: #E41779;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #E41779;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #E41779;
+  background-color: #E41779;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #E41779;
+
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #E41779;
+  border-radius: 50%;
+
+}
+
+input[type="radio"]:checked {
+
+  background-color: #E41779;
+
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #E41779;
+  background-color: transparent;
+  border-radius: 50%;
+
+}
+
+input[type="radio"]:checked {
+  background-color: #E41779;
+
+}
+
+/* ======== radio btns ========== */
+
+.Escorts-radio {
+  position: relative;
+  bottom: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-left: 10px;
+
+}
+
+.Back {
+  margin: 50px 0px 90px 0px;
+  border: 0px;
+  color: #E41779;
+  width: 200px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #E41779;
+
+}
+
+.Back:hover {
+  background-color: #E41779 !important;
+  color: #FFFFFF !important;
+}
+
+.Next {
+  margin: 50px 0px 90px 0px;
+  border: 0px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background: #E41779;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  float: right;
+}
+
+.Next:hover {
+  background-color: #C50260 !important;
+  color: #FFFFFF !important;
+
+
+}
+
+
+/* ================ MEDIA QUARY ============= */
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  #meeting {
+    margin-left: 13px;
+  }
+
+  .first-1 {
+    padding: 15px 0px 15px 0px !important;
+  }
+
+  .main {
+    margin-top: 30px;
+    padding: 10px 30px 0px 30px;
+  }
+
+
+
+  .hide-br {
+    display: block !important;
+  }
+
+  body {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .No-col {
+    padding: 0px;
+  }
+
+  .Escorts-radio span {
+
+    font-size: 8px !important;
+  }
+
+  .Escorts-radio {
+    padding: 0px;
+    font-size: 8px;
+
+  }
+
+  input[type="radio"] {
+
+
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #E41779;
+    margin-top: 9px;
+    /* background-color: #e7e6e7; */
+    background-color: transparent;
+
+    border-radius: 50%;
+  }
+
+  .main span {
+    font-size: 12px;
+  }
+
+  .first-1 {
+    padding: 20px 0px 20px 0px
+  }
+
+  .Back {
+    margin: 20px 0px 40px 0px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .Next {
+    margin: 20px 0px 40px 0px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .ali-7 {
+    margin-left: 0px;
+  }
+
+  .ali {
+    margin-left: 10px !important;
+  }
+
+  .ali-5 {
+    margin-left: 7px;
+  }
+
+  .ali-6 {
+    margin-left: 10px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  .first-1 {
+    padding: 18px 0px 18px 0px;
+  }
+
+  .hide-br {
+    display: block !important;
+  }
+
+  body {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .No-col {
+    padding: 0px;
+  }
+
+  .Escorts-radio span {
+
+    font-size: 9px !important;
+  }
+
+  .Escorts-radio {
+    margin-left: 5px;
+    top: -4px;
+    padding: 0px;
+    font-size: 9px;
+  }
+
+  input[type="radio"] {
+
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #E41779;
+    margin-top: 9px;
+    /* background-color: #e7e6e7; */
+    background-color: transparent;
+
+    border-radius: 50%;
+  }
+
+  .main span {
+    font-size: 12px;
+  }
+
+  .first-1 {
+    padding: 15px 0px 15px 0px
+  }
+
+  .Back {
+    margin: 20px 0px 40px 0px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .Next {
+    margin: 20px 0px 40px 0px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .ali-7 {
+    margin-left: 0px;
+  }
+
+  .ali {
+    margin-left: 10px !important;
+  }
+
+  .ali-5 {
+    margin-left: 7px;
+  }
+
+  .ali-6 {
+    margin-left: 10px;
+  }
+
+  .main {
+    margin-top: 30px;
+    padding: 10px 30px 0px 30px;
+  }
+
+  #meeting {
+    margin-left: 13px;
+  }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  body {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .No-col {
+    padding: 0px;
+
+  }
+
+  .Escorts-radio span {
+    position: relative;
+    left: -54px;
+    font-size: 12px !important;
+  }
+
+  .Escorts-radio {
+    top: -3px;
+    left: 5px;
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  input[type="radio"] {
+    margin-top: 7px;
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #E41779;
+
+    /* background-color: #e7e6e7; */
+    background-color: transparent;
+
+    border-radius: 50%;
+  }
+
+  .main span {
+    font-size: 16px;
+  }
+
+  .first-1 {
+    padding: 15px 0px 15px 20px
+  }
+
+  .Back {
+    font-size: 14px;
+    height: 40px;
+    width: 160px;
+  }
+
+  .Next {
+    font-size: 14px;
+    height: 40px !important;
+    width: 160px !important;
+  }
+
+  .ali-7 {
+    /* margin-left: 54px; */
+    position: relative;
+    left: -54px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  #Couple {
+    position: relative;
+
+  }
+
+  .No-col {
+    padding: 0px;
+
+  }
+
+  .Escorts-radio span {
+    position: relative;
+    left: -54px;
+
+  }
+
+  .Escorts-radio {
+    padding: 0px 0px 0px 5px !important;
+  }
+
+  .ali-7 {
+    margin-left: 54px;
+    position: relative;
+    left: -54px;
+    top: 10px;
+  }
+
+  #couple {
+    position: relative;
+    top: 10px;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .ali-7 {
+    margin-left: 50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  input[type="radio"] {
+
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #E41779;
+    /* background-color: #e7e6e7; */
+    background-color: transparent;
+
+    border-radius: 50%;
+  }
+
+}
+
+@media only screen and (min-width:1400px) {
+  input[type="radio"] #couple-radio {
+    margin-left: 10px !important;
+
+
+  }
+}

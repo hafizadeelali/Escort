@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banktransform .modal-header {
+    border-bottom: none;
+}
+
+#banktransform .main-body {
+    background-color: #E41779;
+    border-radius: 10px;
+}
+
+#banktransform .credit-icon {
+    height: 60px;
+    width: 75px;
+}
+
+#banktransform {
+    max-width: 930px;
+}
+
+#banktransform .header-heading {
+    padding: 20px 20px 0px 0px;
+}
+
+#banktransform .modal-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+#banktransform .logo-dta {
+    padding: 30px 30px 0px 50px;
+}
+
+#banktransform .pop-text {
+    padding: 20px 35px 30px 0px;
+}
+
+#banktransform .pop-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#banktransform .close-button {
+    height: 32px;
+    width: 32px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    #banktransform {
+        max-width: 730px;
+    }
+
+    #banktransform .header-heading {
+        padding: 30px 20px 0px 0px;
+    }
+
+    #banktransform .credit-icon {
+        height: 50px;
+        width: 60px;
+    }
+
+    #banktransform .modal-title {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    #banktransform .logo-dta {
+        padding: 30px 30px 0px 30px;
+    }
+
+    #banktransform .pop-text {
+        padding: 10px 30px 30px 0px;
+    }
+
+    #banktransform .pop-text p {
+        font-size: 16px;
+    }
+
+    #banktransform .close-button {
+        height: 27px;
+        width: 27px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #banktransform {
+        max-width: 100%;
+    }
+
+    #banktransform .header-heading {
+        padding: 15px 15px 0px 0px;
+    }
+
+    #banktransform .credit-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    #banktransform .modal-title {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    #banktransform .logo-dta {
+        padding: 15px 15px 0px 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #banktransform .pop-text {
+        padding: 10px 15px 20px 0px;
+    }
+
+    #banktransform .pop-text p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #banktransform .close-button {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #banktransform#banktransform {
+        max-width: 100%;
+    }
+
+    #banktransform .header-heading {
+        padding: 20px 10px 0px 0px;
+    }
+
+    #banktransform .credit-icon {
+        height: 40px;
+        width: 50px;
+    }
+
+    #banktransform .modal-title {
+        font-size: 16px;
+        font-weight: 600px;
+        margin-top: 0px;
+    }
+
+    #banktransform .logo-dta {
+        padding: 20px 10px 0px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #banktransform .pop-text {
+        padding: 10px 10px 20px 0px;
+    }
+
+    #banktransform .pop-text p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #banktransform .close-button {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #banktransform {
+        max-width: 100%;
+    }
+
+    #banktransform .header-heading {
+        padding: 15px 10px 0px 0px;
+    }
+
+    #banktransform .credit-icon {
+        height: 35px;
+        width: 50px;
+    }
+
+    #banktransform .modal-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 0px;
+        line-height: 23px;
+    }
+
+    #banktransform .logo-dta {
+        padding: 15px 10px 0px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #banktransform .pop-text {
+        padding: 5px 10px 15px 0px;
+    }
+
+    #banktransform .pop-text p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    #banktransform .close-button {
+        height: 18px;
+        width: 18px;
+    }
+}

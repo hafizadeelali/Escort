@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #031521;
+
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+.header-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 90px 0px 50px 0px;
+}
+
+.edit {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #E41779;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.edit table thead tr th {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background: #E41779;
+    border-left: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.edit table thead tr th:first-child {
+    border-left: none;
+    border-top-left-radius: 8px;
+}
+
+.edit table thead tr th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.edit .edit-img {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.edit-button {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.edit-button button {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.edit-button button:focus {
+    box-shadow: none;
+}
+
+.edit-button button:first-child {
+    margin-right: 25px;
+    background: #9C58B7;
+}
+
+.edit-button button:first-child:hover {
+    background-color: #8326A8;
+    color: #FFFFFF;
+}
+
+.edit-button button:last-child {
+    margin-left: 25px;
+    background: #E41779;
+}
+
+.edit-button button:last-child:hover {
+    background: #C50260;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1400px) {
+    #escort-edit-photo {
+        max-width: 1200px;
+        padding-bottom: 90px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .edit table thead tr th {
+        font-size: 16px;
+    }
+
+    .edit-img img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .edit-button button {
+        width: 250px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .edit table thead tr th {
+        font-size: 12px;
+    }
+
+    .edit-img img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .edit-button button {
+        width: 170px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .edit-button button:first-child {
+        margin-right: 10px;
+    }
+
+    .edit-button button:last-child {
+        margin-left: 10px;
+    }
+
+    .edit .edit-img {
+        padding: 35px 0px;
+    }
+
+    .edit-button {
+        padding-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    #escort-edit-photo {
+        padding-bottom: 30px;
+    }
+
+    .header-heading {
+        font-size: 20px;
+        padding: 30px 0px 22px 0px;
+        line-height: 22px;
+    }
+
+    .edit table thead tr th {
+        font-size: 12px;
+        border-left: 1px solid #FFFFFF;
+        line-height: 16px;
+    }
+
+    .edit-img img {
+        height: 250px;
+        width: 200px;
+    }
+
+    .edit-button button {
+        width: 160px;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .edit-button button:first-child {
+        margin-right: 5px;
+    }
+
+    .edit-button button:last-child {
+        margin-left: 5px;
+    }
+
+    .edit .edit-img {
+        padding: 20px 0px;
+    }
+
+    .edit-button {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #escort-edit-photo {
+        padding-bottom: 30px;
+    }
+
+    .header-heading {
+        font-size: 18px;
+        padding: 30px 0px 22px 0px;
+        line-height: 22px;
+    }
+
+    .edit table thead tr th {
+        font-size: 10px;
+        border-left: 1px solid #FFFFFF;
+        line-height: 14px;
+    }
+
+    .edit-img img {
+        height: 250px;
+        width: 200px;
+    }
+
+    .edit-button button {
+        width: 140px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .edit-button button:first-child {
+        margin-right: 0px;
+    }
+
+    .edit-button button:last-child {
+        margin-left: 0px;
+    }
+
+    .edit .edit-img {
+        padding: 20px 0px;
+    }
+
+    .edit-button {
+        padding-bottom: 20px;
+    }
+
+}

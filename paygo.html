@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/paygo.css">
+</head>
+
+<body>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pygoModal">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="pygoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" id="pygo">
+      <div class="modal-content main-body">
+        <div class="modal-header p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-2 logo-dta d-flex justify-content-center">
+                <svg class="credit-icon" viewBox="0 0 127 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.99517 19.0791V31.8326H0V0.51532H11.685C15.6871 0.51532 18.0337 1.50258 19.7696 3.33145C21.3287 4.94991 22.2127 7.36142 22.2127 9.82149C22.2127 12.2816 21.3287 14.6931 19.7696 16.3115C18.082 18.108 15.6871 19.0791 11.685 19.0791H5.99517ZM11.4117 13.7058C13.453 13.7058 14.4816 13.2203 15.1888 12.4596C15.8478 11.7475 16.2175 10.8411 16.2175 9.82149C16.2175 8.78567 15.8639 7.84696 15.1888 7.13484C14.4816 6.37416 13.453 5.88862 11.4117 5.88862H5.99517V13.722H11.4117V13.7058ZM43.7985 31.8326H38.2534V30.0847C36.4693 31.606 34.428 32.2696 32.2582 32.2696C29.0597 32.2696 26.038 30.8453 24.1253 28.5957C22.4377 26.6211 21.3769 23.9507 21.3769 20.9889C21.3769 14.596 26.0862 9.67583 31.9528 9.67583C34.3959 9.67583 36.5657 10.4851 38.2534 11.8608V10.129H43.7985V31.8326ZM38.0123 17.7358C36.8068 16.1173 34.9102 15.0491 32.6761 15.0491C29.3008 15.0491 27.131 17.8653 27.131 21.0051C27.131 24.4038 29.574 26.9125 32.8208 26.9125C34.9906 26.9125 36.9033 25.8443 38.0123 24.2258V17.7358ZM48.5078 42.563L54.4548 29.6315L44.8111 10.129H51.1599L57.4604 23.1414L63.2788 10.129H69.3704L54.5512 42.563H48.5078ZM90.7151 30.6187C90.7151 34.5031 90.0562 36.8336 88.7543 38.6625C86.7934 41.3977 83.3377 43 79.207 43C74.9798 43 70.9938 41.0255 68.8561 38.533L72.5046 34.7296C73.6618 35.9759 75.6549 37.8533 79.207 37.8533C81.0714 37.8533 82.6305 37.2706 83.6109 36.1053C84.4949 35.1181 84.945 33.7748 84.945 31.0072V30.2951C83.2091 31.6384 81.3447 32.2696 79.1748 32.2696C75.9763 32.2696 72.9064 30.8453 70.9938 28.5957C69.3061 26.6211 68.2774 23.9507 68.2774 20.9889C68.2774 14.596 72.9868 9.67583 78.8534 9.67583C81.2965 9.67583 83.4663 10.4851 85.1539 11.8608V10.129H90.7151V30.6187ZM84.945 17.7358C83.7395 16.1173 81.8429 15.0491 79.6088 15.0491C76.2335 15.0491 74.0637 17.8653 74.0637 21.0051C74.0637 24.4038 76.5067 26.9125 79.7535 26.9125C81.9233 26.9125 83.836 25.8443 84.945 24.2258V17.7358ZM108.765 2.48985C106.949 3.96265 105.711 5.87244 105.084 7.96025C106.901 8.13828 108.669 8.70475 110.26 9.61109C110.581 8.52672 111.224 7.52327 112.172 6.74641C114.648 4.73951 118.296 5.14413 120.289 7.63656C122.282 10.129 121.88 13.8029 119.405 15.8098C118.457 16.5705 117.348 16.9913 116.223 17.0722C116.769 18.8525 116.93 20.7137 116.721 22.5264C118.875 22.3484 120.996 21.5392 122.813 20.0826C127.634 16.1821 128.406 9.07699 124.532 4.2216C120.643 -0.649974 113.587 -1.41065 108.765 2.48985ZM96.7907 12.1683C91.9688 16.0688 91.1973 23.1738 95.0709 28.0292C98.9444 32.8846 106 33.6615 110.822 29.761C115.644 25.8605 116.416 18.7554 112.542 13.9C108.669 9.04463 101.613 8.26776 96.7907 12.1683ZM107.431 25.5044C104.956 27.5113 101.307 27.1067 99.3141 24.6142C97.3211 22.1218 97.7229 18.4479 100.198 16.441C102.673 14.4341 106.322 14.8387 108.315 17.3312C110.308 19.8236 109.906 23.4975 107.431 25.5044Z" fill="white"/>
+                  </svg>
+                  
+                  
+              </div>
+              <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12 header-heading d-flex justify-content-between">
+                    <span class="modal-title" id="exampleModalLabel">PayGoo Cards</span>
+                    <svg class="close-button" data-bs-dismiss="modal" aria-label="Close" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.5 20.5L11.5 11.5M20.5 11.5L11.5 20.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M16 31C24.2843 31 31 24.2843 31 16C31 7.71573 24.2843 1 16 1C7.71573 1 1 7.71573 1 16C1 24.2843 7.71573 31 16 31Z" stroke="white" stroke-width="2"/>
+                      </svg>
+                      
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-12 pop-text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                      mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                      interdum tellus elit sed risus. Maecenas eget condimentum velitLorem Ipsum is simply dummy text of
+                      the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five centuries, but also the leap into electronic
+                      typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                      Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                      software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five centuries, but also the leap into Letraset
+                      sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                      Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing
+                      and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                      book. It has survived not only five centuries, but also the leap into Letraset sheets containing
+                      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                      including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                      unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                      survived not only five centuries, but also the leap into
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body p-0">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width:1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* top area */
+
+.escort-profile-area .card {
+    height: 320px;
+    width: 100%;
+}
+
+.escort-profile-area .card img {
+    border-radius: 0px;
+    height: 320px;
+}
+
+.escort-profile-area .card .card-body p {
+    background: rgba(71, 31, 43, 0.1);
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.escort-profile-area .card .card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .escort-profile-area .card .card-body p {
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .escort-profile-area .card {
+        height: 250px;
+    }
+
+    .escort-profile-area .card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .escort-profile-area .card {
+        height: 200px;
+    }
+
+    .escort-profile-area .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .escort-navbar .navbar-brand {
+        margin: 0px !important;
+        padding: 0px;
+    }
+
+    .escort-profile-area .card .card-body p {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .escort-profile-area .card {
+        height: 160px;
+    }
+
+    .escort-profile-area .card img {
+        height: 160px;
+    }
+}
+
+/* top area end */
+body {
+
+    background: #031521;
+
+}
+
+.escort-personal-detail {
+    padding: 90px 0px 90px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.escort-personal-detail-col-1 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+
+}
+
+.escort-personal-detail-col-1-input p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0px 10px 0px
+}
+
+.escort-personal-detail-col-1-input input {
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 0px 30px 0px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    outline: none;
+}
+
+
+.escort-personal-detail-col-2-input p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0px 10px 0px;
+}
+
+.escort-personal-detail-col-2-input input {
+    width: 96%;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 50px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    padding: 0px 30px 0px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#escort-personal-detail-col-2-input input {
+    margin-left: 20px;
+}
+
+#escort-personal-detail-col-2-input p {
+    margin-left: 20px;
+}
+
+.escort-personal-detail-col-2-textarea p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0px 10px 0px;
+}
+
+.escort-personal-detail-col-2-textarea textarea {
+    resize: none;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(120.37deg, rgba(239, 239, 239, 0.048) 0%, rgba(255, 255, 255, 0.008) 100%);
+    border: 1.6px solid #EFEFEF;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    outline: none;
+    padding: 30px;
+}
+
+
+.escort-personal-detail-col-3-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.escort-personal-detail-col-3-btn button {
+    background: #E41779;
+    border: 1px solid #E41779;
+    border-radius: 50px;
+    padding: 14px 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+
+
+.upload-doc-personal {
+    width: 100%;
+    height: 99%;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.upload-doc-personal img {
+    padding: 50px 0px;
+    width: 26%;
+    height: 100%;
+}
+
+
+#escort-personal-detail-col-3-btn-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#escort-personal-detail-col-3-btn-start button {
+    background: white;
+    border: 1px solid white;
+    color: #E41779;
+}
+
+
+#escort-personal-detail-col-3-btn-start button:hover,
+.escort-personal-detail-col-3-btn button:hover {
+    background: #C50260;
+    border: 1px solid #C50260;
+    color: white;
+}
+
+.personal-detail-arrow-right {
+    padding-left: 50px;
+
+}
+
+.personal-detail-arrow-left {
+    padding-right: 50px;
+
+}
+
+/* media query */
+
+@media only screen and (max-width:767px) {
+    .escort-personal-detail {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .upload-doc-personal img {
+        padding: 15px 0px;
+        width: 40%;
+    }
+
+    #escort-personal-detail-col-2-input input {
+        margin-left: 0px;
+    }
+
+    #escort-personal-detail-col-2-input p {
+        margin-left: 0px;
+    }
+
+    .escort-personal-detail-col-2-textarea textarea {
+
+        height: 200px;
+    }
+
+    .escort-personal-detail-col-2-input input {
+        width: 100%;
+    }
+
+    .personal-detail-arrow-left {
+        padding-right: 25px;
+    }
+
+    .escort-personal-detail-col-3-btn button {
+        padding: 11px 35px;
+        margin-top: 40px;
+    }
+
+    .personal-detail-arrow-right {
+        padding-left: 25px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .escort-personal-detail {
+        padding: 60px 20px 60px 20px;
+    }
+
+    .escort-personal-detail-col-3-btn button {
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 30px;
+    }
+
+    .personal-detail-arrow-left {
+        padding-right: 16px;
+    }
+
+    .personal-detail-arrow-right {
+        padding-left: 16px;
+    }
+
+    .upload-doc-personal img {
+        padding: 20px 0px;
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (max-width:480px) {
+    .upload-doc-personal img {
+        padding: 15px 0px;
+        width: 47%;
+    }
+
+    .escort-personal-detail {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .escort-personal-detail-col-1 p {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .escort-personal-detail-col-1-input p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .escort-personal-detail-col-2-input p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .escort-personal-detail-col-1-input input {
+        height: 35px;
+        padding: 0px 15px 0px 15px;
+        font-size: 12px;
+        line-height: 16px;
+        outline: none;
+    }
+
+    .escort-personal-detail-col-2-input input {
+        height: 35px;
+        padding: 0px 15px 0px 15px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .escort-personal-detail-col-2-textarea p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .escort-personal-detail-col-2-textarea textarea {
+        height: 130px;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 15px;
+    }
+
+
+    .personal-detail-arrow-right {
+        padding-left: 10px;
+    }
+
+    .personal-detail-arrow-left {
+        padding-right: 10px;
+
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+    .upload-doc-personal img {
+        padding: 15px 0px;
+        width: 47%;
+    }
+
+    .escort-personal-detail-col-3-btn button {
+        padding: 8px 13px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 20px;
+    }
+
+    .personal-detail-arrow-right {
+        padding-left: 8px;
+
+    }
+
+    .personal-detail-arrow-left {
+        padding-right: 5px;
+
+    }
+
+    .escort-personal-detail-col-2-input input {
+        height: 30px;
+    }
+
+    .escort-personal-detail-col-1-input input {
+        height: 30px;
+    }
+}
